@@ -3,11 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>프로젝트 세팅</title>
+  <title>숫자 맞추기 게임</title>
   <link rel="stylesheet" href="style.css">
+  <script src="const.js"></script>
 </head>
 <body>
-  <h1>프로젝트 세팅</h1>
+  <main>
+    <div class="inner">
+      <h1>맟춰 보시지?</h1>
+      <p>자 1부터 100까지의 숫자 중 내가 생각하는 숫자를 맞춰뵈</p>
+      <ul class="life-ul" id="life">
+      </ul>
+      <img class="img" src="https://t1.daumcdn.net/cfile/tistory/99345C415A3A5F560B" alt="">
+      <div style="margin-bottom: 20px;" id="result"></div>
+      <input type="number" class="input" id="count" placeholder="한번 니가 생각한 숫자를 넣어보시지">
+      <div class="btn-div">
+        <button class="btn btn-ok" id="btn_count">확인</button>
+        <button class="btn btn-re" id="btn_re">reset</button>
+      </div>
+      
+    </div>
+  </main>
 
   <script src="main.js"></script>
 </body>
